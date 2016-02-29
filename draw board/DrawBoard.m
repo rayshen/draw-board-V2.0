@@ -283,8 +283,7 @@
                                                        owner:nil
                                                      options:nil] lastObject];
     [self addSubview:toolBar];
-    toolBar.center = CGPointMake(self.bounds.size.width + toolBar.bounds.size.width * 0.5,
-                                 self.bounds.size.height * 0.5);
+    toolBar.center = CGPointMake(self.bounds.size.width + toolBar.bounds.size.width * 0.5, self.bounds.size.height * 0.5);
     _toolBar = toolBar;
     // tool btn type
     _toolBar.toolBlock = ^(DrawStyle type) {
